@@ -123,7 +123,9 @@ for symbol in SP500_symbol_df:
     dividend_yield = info.get('dividendYield')
     stock_dividend_info.append((symbol, dividend_yield))
 
-df = pd.DataFrame(stock_dividend_info)
+colomns = ["Symbol", "Dividend Yield"]
+
+df = pd.DataFrame(stock_dividend_info, columns=colomns)
 print(df)
 
 file_name = "S&P 500 constituent dividend info"
