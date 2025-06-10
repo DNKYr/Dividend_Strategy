@@ -121,9 +121,9 @@ stock_dividend_info = []
 for symbol in SP500_symbol_df:
     info = yf.Ticker(symbol).info
     dividend_yield = info.get('dividendYield')
-    stock_dividend_info.append((symbol, dividend_yield))
+    stock_dividend_info.append((symbol, dividend_yield, info.get("marketCap")))
 
-colomns = ["Symbol", "Dividend Yield"]
+colomns = ["Symbol", "Dividend Yield", "Market Capitalization"]
 
 df = pd.DataFrame(stock_dividend_info, columns=colomns)
 print(df)

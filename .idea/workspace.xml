@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f21647f-877e-4ca3-9415-c8683c0fc6af" name="Changes" comment="Getting all dividend yield data from Yahoo Finance">
-      <change afterPath="$PROJECT_DIR$/GetTier2DividendSymbol.py" afterDir="false" />
+    <list default="true" id="7f21647f-877e-4ca3-9415-c8683c0fc6af" name="Changes" comment="Creating file to calculate tier 2 stock in dividend">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetMarketData.py" beforeDir="false" afterPath="$PROJECT_DIR$/GetMarketData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetTier2DividendSymbol.py" beforeDir="false" afterPath="$PROJECT_DIR$/GetTier2DividendSymbol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +98,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749564204327</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding Column to the dataframe">
+      <option name="closed" value="true" />
+      <created>1749564630068</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1749564630068</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Creating file to calculate tier 2 stock in dividend">
+      <option name="closed" value="true" />
+      <created>1749564651198</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749564651198</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,6 +130,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Getting all dividend yield data from Yahoo Finance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Getting all dividend yield data from Yahoo Finance" />
+    <MESSAGE value="Adding Column to the dataframe" />
+    <MESSAGE value="Creating file to calculate tier 2 stock in dividend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating file to calculate tier 2 stock in dividend" />
   </component>
 </project>
