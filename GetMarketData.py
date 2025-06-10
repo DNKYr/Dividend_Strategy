@@ -117,6 +117,18 @@ SP500_df = get_wikipedia_table(SP500_Url, None,None, 0)
 #Parsing the original table into its component
 SP500_symbol_df = SP500_df[1:]["Symbol"]
 
+stock_dividend_info = []
+for symbol in SP500_symbol_df:
+    info = yf.Ticker(symbol).info
+    dividend_yield = info.get('dividendYield')
+    stock_dividend_info.append((symbol, dividend_yield))
+
+df = pd.DataFrame(stock_dividend_info)
+print(df)
+
+file_name = "S&P 500 constituent dividend info"
+
+df.to_csv(file_name, index=False)
 
 
 
