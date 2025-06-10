@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f21647f-877e-4ca3-9415-c8683c0fc6af" name="Changes" comment="Initial commit, finishing getting s&amp;P constituent data from wikipedia">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GetMarketData.py" beforeDir="false" afterPath="$PROJECT_DIR$/GetMarketData.py" afterDir="false" />
+    <list default="true" id="7f21647f-877e-4ca3-9415-c8683c0fc6af" name="Changes" comment="Getting all dividend yield data from Yahoo Finance">
+      <change afterPath="$PROJECT_DIR$/GetTier2DividendSymbol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Rebase.Settings">
     <option name="NEW_BASE" value="origin/main" />
@@ -31,16 +37,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.GetMarketData.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ToolWindowPython Packages.ShowToolbar&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.GetMarketData.executor": "Run",
+    "Python.GetTier2DividendSymbol.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ToolWindowPython Packages.ShowToolbar": "false",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="GetMarketData" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Dividend investment" />
@@ -81,6 +88,15 @@
       <option name="presentableId" value="Default" />
       <updated>1749521213147</updated>
     </task>
+    <task id="LOCAL-00001" summary="Getting all dividend yield data from Yahoo Finance">
+      <option name="closed" value="true" />
+      <created>1749564204327</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749564204327</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,5 +109,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Getting all dividend yield data from Yahoo Finance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Getting all dividend yield data from Yahoo Finance" />
   </component>
 </project>
