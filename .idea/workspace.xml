@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f21647f-877e-4ca3-9415-c8683c0fc6af" name="Changes" comment="Adding MarketCapitalization into the final dataframe">
+    <list default="true" id="7f21647f-877e-4ca3-9415-c8683c0fc6af" name="Changes" comment="Adding CDR list from CIBC and creating compared file">
+      <change beforePath="$PROJECT_DIR$/.idea/Dividend investment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Dividend investment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GetTier2DividendSymbol.py" beforeDir="false" afterPath="$PROJECT_DIR$/GetTier2DividendSymbol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GetCDR.py" beforeDir="false" afterPath="$PROJECT_DIR$/GetCDR.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +26,11 @@
     <option name="NEW_BASE" value="origin/main" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -40,15 +47,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.GetCDR.executor": "Run",
     "Python.GetMarketData.executor": "Run",
     "Python.GetTier2DividendSymbol.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ToolWindowPython Packages.ShowToolbar": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Issue1",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="GetMarketData" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Dividend investment" />
@@ -121,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749565944179</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding CDR list from CIBC and creating compared file">
+      <option name="closed" value="true" />
+      <created>1749582238281</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1749582238281</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,6 +161,7 @@
     <MESSAGE value="Adding Column to the dataframe" />
     <MESSAGE value="Creating file to calculate tier 2 stock in dividend" />
     <MESSAGE value="Adding MarketCapitalization into the final dataframe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding MarketCapitalization into the final dataframe" />
+    <MESSAGE value="Adding CDR list from CIBC and creating compared file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding CDR list from CIBC and creating compared file" />
   </component>
 </project>
