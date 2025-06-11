@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f21647f-877e-4ca3-9415-c8683c0fc6af" name="Changes" comment="Adding CDR list from CIBC and creating compared file">
-      <change beforePath="$PROJECT_DIR$/.idea/Dividend investment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Dividend investment.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7f21647f-877e-4ca3-9415-c8683c0fc6af" name="Changes" comment="Finishing finding all intersection of all stocks in CDR and tier2 dividend">
+      <change afterPath="$PROJECT_DIR$/CalculateAmount.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GetCDR.py" beforeDir="false" afterPath="$PROJECT_DIR$/GetCDR.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +45,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.CalculateAmount.executor": "Run",
     "Python.GetCDR.executor": "Run",
     "Python.GetMarketData.executor": "Run",
     "Python.GetTier2DividendSymbol.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "ToolWindowPython Packages.ShowToolbar": "false",
-    "git-widget-placeholder": "Issue1",
+    "git-widget-placeholder": "issue3",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
